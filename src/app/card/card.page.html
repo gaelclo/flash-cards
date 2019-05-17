@@ -1,0 +1,41 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Card</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content *ngIf="data">
+  <ion-fab vertical="top" horizontal="end" slot="fixed" (click)="delete()">
+    <ion-fab-button>
+      <ion-icon name="Remove"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
+  <ion-card class="question" (touchstart)="answer()">
+    <ion-card-header>
+      <ion-card-subtitle>Question</ion-card-subtitle>
+    </ion-card-header>
+  
+    <ion-card-content>
+        <div class="content">{{getCurrent().word}}</div>
+        <div class="content" *ngIf="getCurrent().word2">{{getCurrent().word2}}</div>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card *ngIf="showAnswer">
+      <ion-card-header>
+        <ion-card-subtitle>Answer</ion-card-subtitle>
+      </ion-card-header>
+    
+      <ion-card-content>
+          <div class="content">{{getCurrent().value}}</div>
+      </ion-card-content>
+    </ion-card>
+</ion-content>
+
+<ion-footer no-shadow>
+  <ion-button expand="block" (click)="next()" *ngIf="showAnswer">Next</ion-button>
+</ion-footer>

@@ -1,0 +1,24 @@
+{
+    "entries": [
+        {"word": "多い", "word2":"ooi",  "value": "“Many”", "visible":true},
+        {"word": "たくさん", "word2":"takusan",  "value": "lots of", "visible":true},
+        {"word": "少し", "word2":"sukoshi",  "value": "few", "visible":true},
+        {"word": "遠い", "word2":"tooi",  "value": "far", "visible":true},
+        {"word": "近い", "word2":"chikai",  "value": "near", "visible":true},
+        {"word": "小さい", "word2":"chiisai",  "value": "small", "visible":true},
+        {"word": "大きい", "word2":"ookii",  "value": "big", "visible":true},
+        {"word": "良い", "word2":"yoi",  "value": "good", "visible":true},
+        {"word": "悪い", "word2":"warui",  "value": "bad", "visible":true},
+        {"word": "きれいな", "word2":"kirei na",  "value": "clean,pretty", "visible":true},
+        {"word": "醜い", "word2":"minikui",  "value": "ugly", "visible":true},
+        {"word": "難しい", "word2":"muzukashii",  "value": "difficult", "visible":true},
+        {"word": "簡単な", "word2":"kantan na",  "value": "easy", "visible":true},
+        {"word": "うまい", "word2":"umai",  "value": "nice", "visible":true},
+        {"word": "美味しい", "word2":"oishii",  "value": "“delicious”", "visible":true},
+        {"word": "まずい", "word2":"mazui",  "value": "disgusting", "visible":true},
+        {"word": "大丈夫", "word2":"daijoubu",  "value": "all right", "visible":true},
+        {"word": "すごい", "word2":"sugoi",  "value": "amazing", "visible":true},
+        {"word": "楽しい", "word2":"tanoshii",  "value": "enjoyable, pleasant", "visible":true},
+        {"word": "とても", "word2":"totemo",  "value": "very", "visible":true}
+    ]
+}

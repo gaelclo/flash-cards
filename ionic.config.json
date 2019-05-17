@@ -1,5 +1,7 @@
 {
   "name": "flash-cards",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
