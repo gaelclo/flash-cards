@@ -14,13 +14,14 @@ export class CardPage implements OnInit {
   index: number;
   data: Array<any> = null;
   showAnswer: boolean = false;
+  reverse: boolean = false;
 
   constructor(private activatedRoute: ActivatedRoute, public http: HttpClient, private router: Router) { }
 
   ngOnInit() {
     this.lang = this.activatedRoute.snapshot.paramMap.get('lang');
     this.http.get('assets/data/'+this.lang+'.json').subscribe(data => {
-      console.log(data);
+      //console.log(data);
       this.data = data['entries'];
       this.index = this.randomInt(this.data.length);
     });
@@ -49,10 +50,25 @@ export class CardPage implements OnInit {
     }
   }
 
-  getCurrent(): string {
+  private getCurrent(): string {
     if(!this.data) return
-    console.log(this.data[this.index]);
+    //console.log(this.data[this.index]);
     return this.data[this.index];
+  }
+
+  getAnswer(): string [] {
+    console.log('this.getCurrent()',this.getCurrent());
+    if(this.reverse) {
+      return [this.getCurrent()['value']];
+    }
+    return [this.getCurrent()['word'],this.getCurrent()['word2']];
+  }
+
+  getValue(): string [] {
+    if(this.reverse) {
+      return [this.getCurrent()['word'],this.getCurrent()['word2']];
+    }
+    return [this.getCurrent()['value']];
   }
 
   private randomInt(max: number) {

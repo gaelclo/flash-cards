@@ -1,0 +1,27 @@
+{
+    "entries": [
+        {"word": "する", "word2":"Suru",  "value": "To do", "visible":true},
+        {"word": "です", "word2":"Desu",  "value": "To be / It is", "visible":true},
+        {"word": "なる", "word2":"Naru",  "value": "To become", "visible":true},
+        {"word": "ある", "word2":"Aru",  "value": "There is for inanimate objects and plants", "visible":true},
+        {"word": "いる", "word2":"Iru",  "value": "There is for living things, like humans and animals", "visible":true},
+        {"word": "言う", "word2":"Iu",  "value": "To say", "visible":true},
+        {"word": "行く", "word2":"Iku",  "value": "To go", "visible":true},
+        {"word": "出来る", "word2":"Dekiru",  "value": "To be able to do", "visible":true},
+        {"word": "見る", "word2":"Miru",  "value": "To see", "visible":true},
+        {"word": "送る", "word2":"Okuru",  "value": "To send", "visible":true},
+        {"word": "持つ", "word2":"Motsu",  "value": "To have", "visible":true},
+        {"word": "待つ", "word2":"Matsu",  "value": "To wait", "visible":true},
+        {"word": "会う", "word2":"Au",  "value": "To meet", "visible":true},
+        {"word": "呼ぶ", "word2":"Yobu",  "value": "To call", "visible":true},
+        {"word": "置く", "word2":"Oku",  "value": "To put", "visible":true},
+        {"word": "受ける", "word2":"Ukeru",  "value": "To receive", "visible":true},
+        {"word": "作る", "word2":"Tsukuru",  "value": "To make", "visible":true},
+        {"word": "着く", "word2":"Tsuku",  "value": "To arrive", "visible":true},
+        {"word": "使う", "word2":"Tsukau",  "value": "To use", "visible":true},
+        {"word": "学ぶ", "word2":"Manabu",  "value": "To learn", "visible":true},
+        {"word": "食べる", "word2":"Taberu",  "value": "To eat", "visible":true},
+        {"word": "飲む", "word2":"Nomu",  "value": "To drink", "visible":true},
+        {"word": "帰る", "word2":"Kaeru",  "value": "To return home", "visible":true}
+    ]
+}

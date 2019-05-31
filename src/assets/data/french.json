@@ -3,6 +3,9 @@
         {"word": "endogamie", "value":"Obligation, pour les membres de certaines tribus, de se marier dans leur propre tribu. Opposé à exogamie.",  "visible":true},
         {"word": "népotisme", "value":"Favoriser l'ascension des membres de leurs familles dans la hiérarchie qu'ils dirigent, au détriment des processus de sélection ordinaires.",  "visible":true},
         {"word": "imprécation", "value":"Souhait de malheur contre qqn.",  "visible":true},
+        {"word": "peccadille", "value":"Faute bénigne, sans gravité.",  "visible":true},
+        {"word": "pédantisme", "value":"Attitude relationnelle caractérisée par une tendance à un élitisme volontiers mondain et orgueilleux, et à l'étalage d'une érudition académique , une hyperprécision du savoir, systématique et exagérée et par une certaine incapacité à prendre en compte l'interlocuteur, rendant le discours ennuyeux parce qu'obscur.",  "visible":true},
+        {"word": "cuistre", "value":"Pédant vaniteux et ridicule.",  "visible":true},
         {"word": "peccadille", "value":"Faute bénigne, sans gravité.",  "visible":true}
     ]
 }

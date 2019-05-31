@@ -1,0 +1,12 @@
+{
+    "entries": [
+        {"word": "しかし", "word2":"Shikashi",  "value": "However", "visible":true},
+        {"word": "また", "word2":"Mata",  "value": "Also", "visible":true},
+        {"word": "その後", "word2":"Sono ato",  "value": "After that", "visible":true},
+        {"word": "その時", "word2":"Sono toki",  "value": "At that time", "visible":true},
+        {"word": "場合は", "word2":"Baai wa",  "value": "In case", "visible":true},
+        {"word": "例えば", "word2":"Tatoeba",  "value": "For example", "visible":true},
+        {"word": "それから", "word2":"Sorekara",  "value": "Then", "visible":true},
+        {"word": "だから", "word2":"Dakara",  "value": "So", "visible":true}
+    ]
+}

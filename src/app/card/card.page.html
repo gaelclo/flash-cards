@@ -8,6 +8,12 @@
 </ion-header>
 
 <ion-content *ngIf="data">
+
+    <ion-item class="reverse">
+      <ion-label>Reverse</ion-label>
+      <ion-checkbox [(ngModel)]="reverse"></ion-checkbox>
+    </ion-item>
+
   <ion-fab vertical="top" horizontal="end" slot="fixed" (click)="delete()">
     <ion-fab-button>
       <ion-icon name="Remove"></ion-icon>
@@ -20,8 +26,8 @@
     </ion-card-header>
   
     <ion-card-content>
-        <div class="content">{{getCurrent().word}}</div>
-        <div class="content" *ngIf="getCurrent().word2">{{getCurrent().word2}}</div>
+        <div class="content">{{getValue()[0]}}</div>
+        <div class="content" *ngIf="getValue().length>1">{{getValue()[1]}}</div>
     </ion-card-content>
   </ion-card>
 
@@ -31,7 +37,8 @@
       </ion-card-header>
     
       <ion-card-content>
-          <div class="content">{{getCurrent().value}}</div>
+          <div class="content">{{getAnswer()[0]}}</div>
+          <div class="content" *ngIf="getAnswer().length>1">{{getAnswer()[1]}}</div>
       </ion-card-content>
     </ion-card>
 </ion-content>
